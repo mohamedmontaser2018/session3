@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Session 3 - Tables, Lists &amp; Forms</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<h1>Hello World From Html Code</h1>
+<h2>Hello World From Html Code</h2>
+<h3>Hello World From Html Code</h3>
+<h4>Hello World From Html Code</h4>
+<h5>Hello World From Html Code</h5>
+<h6>Hello World From Html Code</h6>
+
+<p>
+  Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
+  voluptate illo corrupti iure rerum inventore porro error obcaecati
+  soluta numquam, veritatis cumque at adipisci dolore, ipsa pariatur
+  consectetur explicabo sapiente, dicta quas? Obcaecati libero nulla
+  voluptatibus? Cum voluptatibus suscipit quisquam fuga repudiandae
+  sapiente ad unde sequi, iure nostrum accusamus quod debitis molestiae
+  quo dignissimos dolor veniam hic perferendis odit. Ea, odit ipsum
+  perspiciatis provident pariatur nostrum repellat enim reiciendis!
+  Quisquam magnam molestiae sit dignissimos minus laudantium amet
+  corrupti quo exercitationem earum voluptas odit incidunt, similique
+  cum, vitae ex perferendis libero reiciendis atque repellat id iste.
+</p>
+
+<p>Hiii</p>
+
+<img src="assets/cliff.jpg" alt="Green coastal cliffs" />
+<img src="assets/sunset.jpg" alt="Sunset over mountain ridges" />
+
+<ul class="links">
+  <li><a href="#about">About Page</a></li>
+  <li><a href="https://www.google.com" target="_blank" rel="noopener">Google</a></li>
+  <li><a href="https://www.facebook.com" target="_blank" rel="noopener">Facebook</a></li>
+  <li><a href="mailto:mohammedmontaser14@gmail.com">send by email</a></li>
+  <li><a href="tel:+201021178575">Call us</a></li>
+  <li><a href="https://wa.me/201021178575" target="_blank" rel="noopener">whats app Telegram Messanger</a></li>
+</ul>
+
+<table>
+  <caption>Personal Information</caption>
+  <thead>
+    <tr><th>First Name</th><th>Last Name</th><th>Color</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Sayed</td><td></td><td>Black</td></tr>
+    <tr><td>mariam</td><td>Mohamed</td><td>white</td></tr>
+    <tr><td>kareem</td><td></td><td>yellow</td></tr>
+    <tr><td colspan="3" class="span-row">Ahmed</td></tr>
+  </tbody>
+</table>
+
+<ol type="a" class="color-list">
+  <li>Red</li>
+  <li>Green</li>
+  <li>Blue</li>
+  <li>Yellow</li>
+  <li>Black</li>
+</ol>
+
+<ul class="name-list">
+  <li>ali</li>
+  <li>Sayed</li>
+  <li>Hassan</li>
+  <li>omar</li>
+</ul>
+
+<p>Egypt</p>
+<blockquote>Lorem ipsum dolor sit amet.</blockquote>
+
+<p>Ksa</p>
+<blockquote>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est, corrupti?</blockquote>
+
+<form id="demoForm">
+  <div class="field">
+    <label for="name">Name:</label>
+    <input type="text" id="name" placeholder="Enter Your Name" />
+  </div>
+  <div class="field">
+    <label for="email">Email:</label>
+    <input type="email" id="email" placeholder="Enter your Email" />
+  </div>
+  <div class="field">
+    <label for="password">Password:</label>
+    <input type="password" id="password" placeholder="Enter your Password" />
+  </div>
+  <div class="field">
+    <label>Gender:</label>
+    <label class="inline"><input type="radio" name="gender" value="male" /> Male</label>
+    <label class="inline"><input type="radio" name="gender" value="female" checked /> Female</label>
+  </div>
+  <div class="field">
+    <label for="birthday">Birthday:</label>
+    <input type="date" id="birthday" />
+    <input type="week" />
+    <input type="month" />
+    <input type="time" />
+  </div>
+  <button type="submit">Login</button>
+</form>
+<p class="form-msg" id="formMsg"></p>
+
+<script src="script.js"></script>
+</body>
+</html>
